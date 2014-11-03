@@ -1,0 +1,97 @@
+html,body{
+	width:100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/snap_itc.ttf);
+}
+header{
+	color:#fff;
+	font-family: myFirstFont;
+	border-bottom: 3px solid #fff;
+	background-color: #499017;
+	text-align: center;
+}
+
+#wrapper{
+	position: relative;
+	color:#fff;
+	font-family: myFirstFont;
+	font-size: 2em;
+	width:960px;
+	height: 100%;
+    margin: 0 auto;
+	background: url(../img/texture-green.png) repeat;
+	padding: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+ }
+#map{
+	font-size: 7rem;
+	width: 500px;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    overflow: hidden; 
+}
+.unit{
+	border-radius: 10px;
+	border:3px solid #fff;
+	background-color: #499017;
+	min-width:150px;
+	min-height:150px;
+	margin: 5px;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+.clear { clear: both;}
+#total_score{
+	padding: 10px 20px;
+	float:left;
+}
+#time,#lvl{
+	float:right;
+	font-size: 3rem;
+	border-radius: 50%;
+	border:10px solid #fff;
+	margin: 10px;
+	width:100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+footer{
+	color:#fff;
+	font-family: myFirstFont;
+	font-size: 3em;
+	border-top: 3px solid #fff;
+	background-color: #499017;
+	text-align: center;
+}
+#game_over{
+	text-align: center;
+	margin: 1em auto 0;
+	font-size: 4rem;
+}
+.invisible{
+	display: none;
+}
+.nav{
+	cursor: pointer;
+	width: 25%;
+	float: left;
+}
